@@ -1,0 +1,12 @@
+name: pointnet
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pytorch=1.6.0
+  - cudatoolkit=10.1
+  - numpy
+  - tqdm
+  - pip
